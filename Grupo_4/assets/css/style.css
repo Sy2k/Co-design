@@ -20,7 +20,13 @@
   height: 200px;
 
 }
-
+.imagem-projetos-main{
+  position: absolute;
+  top: 0px;
+  border-image: 0px ;
+  width: 600px;
+  height: 200px;
+}
 .main-menu {
   position: absolute;
   left: 120px;
