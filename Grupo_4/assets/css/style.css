@@ -27,6 +27,21 @@
   width: 600px;
   height: 200px;
 }
+.link-categoria{
+  position: absolute;
+  left: 10px;
+  top: 280px;
+  width: 1024px;
+  text-align: left;
+}
+.link-categoria-item{
+  position: absolute;
+  left: 60px;
+  top: 350px;
+  width: 1024px;
+  text-align: left;
+}
+
 .main-menu {
   position: absolute;
   left: 120px;
