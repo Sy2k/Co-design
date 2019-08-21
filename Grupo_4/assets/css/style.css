@@ -60,6 +60,18 @@
   margin-left: 10px;
 }
 
+.menu-logo {
+  position: absolute;
+  left: 1240px;
+  top: 15px;
+}
+
+.menu-logo-item {
+  display: inline;
+  margin-left: 10px;
+}
+
+
 /* index.html */
 
 .index-title {
@@ -131,7 +143,7 @@
   height: 150px;
 }
 
-.books-menu {
+.lista-projetos {
   position: absolute;
   left: 10px;
   top: 280px;
@@ -163,17 +175,17 @@
   height: 250px;
 }
 
-/* livro.html */
+/* projeto.html */
 
-.book-title {
+.titulo-projeto {
   position: absolute;
   left: 10px;
-  top: 100px;
+  top: 70px;
   width: 1024px;
   text-align: center;
 }
 
-.book-image {
+.imagem-projeto {
   position: absolute;
   left: 10px;
   top: 150px;
@@ -181,7 +193,7 @@
   height: 500px;
 }
 
-.book-text {
+.descricao-projeto {
   position: absolute;
   left: 420px;
   top: 150px;
