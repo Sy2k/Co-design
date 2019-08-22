@@ -5,13 +5,15 @@
   border-style: solid;
   border-width: 1px;
 }
+
 .logo {
   position: absolute;
   left: 10px;
   top: 8px;
-  width: 170px;
+  width: 160px;
   height: 30px;
 }
+
 .imagem-perfil{
   position: absolute;
   left: 10px;
@@ -20,6 +22,7 @@
   height: 200px;
 
 }
+
 .info-grupo{
   position: absolute;
   padding-left: : 80px;
@@ -27,26 +30,13 @@
   width: 1024px;
   text-align: padding-left;
 }
+
 .imagem-projetos-main{
   position: absolute;
   top: 0px;
   border-image: 0px ;
   width: 600px;
   height: 200px;
-}
-.link-categoria{
-  position: absolute;
-  left: 10px;
-  top: 280px;
-  width: 1024px;
-  text-align: left;
-}
-.link-categoria-item{
-  position: absolute;
-  left: 60px;
-  top: 350px;
-  width: 1024px;
-  text-align: left;
 }
 
 .main-menu {
@@ -89,42 +79,28 @@
   top: 0px;
   text-align: left;
 }
+
 .info-pessoal-item{
   position: absolute;
   left: 270px;
   top: 50px;
   text-align: left;
 }
-.sections-menu {
+
+.link-categoria{
   position: absolute;
   left: 10px;
-  top: 380px;
+  top: 280px;
   width: 1024px;
   text-align: left;
 }
 
-.sections-menu-item {
-  display: inline-block;
-  position: relative;
-  width: 500px;
-  height: 250px;
-  background-color: gold;
-}
-
-.sections-menu-item-image {
+.link-categoria-item{
   position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 200px;
-  height: 250px;
-}
-
-.sections-menu-item-text {
-  position: absolute;
-  left: 210px;
-  top: 10px;
-  width: 250px;
-  height: 250px;
+  left: 60px;
+  top: 350px;
+  width: 1024px;
+  text-align: left;
 }
 
 /* categoria.html */
@@ -160,8 +136,6 @@
   border-style: solid;
   border-width: 0.3px;
   margin-top: 130px;
-
-
 }
 
 .bloco-projeto2 {
@@ -201,12 +175,6 @@
   top: 850px;
   width: 1024px;
   text-align: center
-}
-
-}
-.section-title-image {
-  width: 390px;
-  height: 150px;
 }
 
 .lista-projetos1 {
