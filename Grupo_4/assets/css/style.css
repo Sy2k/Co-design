@@ -226,29 +226,6 @@
 }
 
 
-.books-menu-item {
-  display: inline-block;
-  position: relative;
-  width: 500px;
-  height: 250px;
-  background-color: gold;
-}
-
-.books-menu-item-image {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 200px;
-  height: 250px;
-}
-
-.books-menu-item-text {
-  position: absolute;
-  left: 210px;
-  top: 10px;
-  width: 250px;
-  height: 250px;
-}
 
 /* projeto.html */
 
