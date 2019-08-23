@@ -1,0 +1,95 @@
+/* categoria.html */
+
+.titulo-categoria {
+  position: absolute;
+  left: 10px;
+  top: 70px;
+  width: 1024px;
+  text-align: center;
+}
+
+.imagem-principal-projeto1 {
+  position: absolute;
+  left: 950px;
+  top: 25px;
+  width: 300px;
+  height: 300px;
+}
+
+.imagem-principal-projeto2 {
+  position: absolute;
+  left: 950px;
+  top: 25px;
+  width: 300px;
+  height: 300px;
+}
+
+.bloco-projeto1 {
+  position:absolute;
+  width: 1300px;
+  height: 350px;
+  border-style: solid;
+  border-width: 0.3px;
+  margin-top: 130px;
+}
+
+.bloco-projeto2 {
+  position: absolute;
+  width: 1300px;
+  height: 350px;
+  border-style: solid;
+  border-width: 0.3px;
+  margin-top: 500px;
+
+}
+.nome-projeto1 {
+  position: absolute;
+  left: 20px;
+  top: 140px;
+  width: 1024px;
+}
+
+.nome-projeto2 {
+  position: absolute;
+  left: 20px;
+  top: 520px;
+  width: 1024px;
+}
+
+<<<<<<< HEAD
+.books-menu {
+=======
+.saber-mais-projeto1 {  
+>>>>>>> 0c734164e1270c9562736eface45cb59d0edd001
+  position: absolute;
+  left: 50px;
+  top: 450px;
+  width: 1024px;
+  text-align: center
+}
+
+.saber-mais-projeto2 {  
+  position: absolute;
+  left: 50px;
+  top: 850px;
+  width: 1024px;
+  text-align: center
+}
+
+.lista-projetos1 {
+  position: absolute;
+  left: 30px;
+  top: 280px;
+  width: 1024px;
+  text-align: left;
+}
+
+.lista-projetos2 {
+  position: absolute;
+  left: 30px;
+  top: 660px;
+  width: 1024px;
+  text-align: left;
+}
+
+<<<<<<< HEAD

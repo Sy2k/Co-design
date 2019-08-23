@@ -1,0 +1,40 @@
+/* index.html */
+
+.index-title {
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  width: 1024px;
+  height: 300px;
+  text-align: center;
+}
+
+.info-pessoal{
+  position: absolute;
+  left: 250px;
+  top: 0px;
+  text-align: left;
+}
+
+.info-pessoal-item{
+  position: absolute;
+  left: 270px;
+  top: 50px;
+  text-align: left;
+}
+
+.link-categoria{
+  position: absolute;
+  left: 10px;
+  top: 280px;
+  width: 1024px;
+  text-align: left;
+}
+
+.link-categoria-item{
+  position: absolute;
+  left: 60px;
+  top: 350px;
+  width: 1024px;
+  text-align: left;
+}

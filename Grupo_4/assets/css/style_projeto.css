@@ -1,0 +1,30 @@
+/* livro.html */
+.book-title {
+=======
+
+
+/* projeto.html */
+
+.titulo-projeto {
+>>>>>>> 0c734164e1270c9562736eface45cb59d0edd001
+  position: absolute;
+  left: 10px;
+  top: 100px;
+  width: 1024px;
+  text-align: center;
+}
+
+.book-image {
+  position: absolute;
+  left: 10px;
+  top: 150px;
+  width: 400px;
+  height: 500px;
+}
+
+.book-text {
+  position: absolute;
+  left: 420px;
+  top: 150px;
+  width: 604px;
+}
