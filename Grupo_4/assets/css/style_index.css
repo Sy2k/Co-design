@@ -1,40 +1,48 @@
 /* index.html */
-
-.index-title {
-  position: absolute;
-  left: 0px;
-  top: 100px;
-  width: 1024px;
-  height: 300px;
-  text-align: center;
+.pessoal{
+}
+.info-pessoal {
+  align-self: auto;
+  margin-left: 18%;
+  margin-top: -13%;
 }
 
-.info-pessoal{
-  position: absolute;
-  left: 250px;
-  top: 0px;
-  text-align: left;
+.info-pessoal-item {
+  margin-left: 20%;
+  align-self: auto;
 }
 
-.info-pessoal-item{
-  position: absolute;
-  left: 270px;
-  top: 50px;
-  text-align: left;
+.link-categoria {
+  margin-left: 1%;
+  margin-top: 5%;
+  /* font-size: 4em;s
+  color: blue; 
+  text-decoration:bold; */
 }
 
-.link-categoria{
-  position: absolute;
-  left: 10px;
-  top: 280px;
-  width: 1024px;
-  text-align: left;
+.link-categoria-item {
+  align-self: auto;
+  margin-top: auto;
+  margin-left: 5%;
+  /* font-size: 1.25em;
+  color: black; 
+  text-decoration:bold; */
 }
 
-.link-categoria-item{
-  position: absolute;
-  left: 60px;
-  top: 350px;
-  width: 1024px;
-  text-align: left;
+.imagem-perfil {
+  display: flex;
+  justify-content: left;
+  margin-left: 3%;
+  margin-top: 2.5%;
+  max-width: 13%;
+  max-height: 13%;
+}
+
+.imagem-projetos-main{
+  display: flex;
+  justify-content: left;
+  margin-left: 40%;
+  margin-top: -7%;
+  max-width: 45%;
+  max-height: 45%;
 }
