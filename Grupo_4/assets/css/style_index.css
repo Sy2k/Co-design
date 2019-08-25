@@ -1,39 +1,45 @@
 /* index.html */
 .pessoal{
-  justify-content: flex-end;
-
 }
 .info-pessoal {
 
 }
 
 .info-pessoal-item {
-
-
+  margin-left: 15em;
+  
 }
 
 .link-categoria {
-  justify-content: bottom-left;
-  text-align: border-bottom-width;
-  font-size: 20px;
-  color: blue;
-  text-decoration:bold;
+  margin-bottom: 3em;
+  margin-left: 0.35em;
+  /* font-size: 4em;
+  color: blue; 
+  text-decoration:bold; */
 }
 
 .link-categoria-item {
-
+  margin-bottom: 3em;
+  margin-left: 0.35em;
+  /* font-size: 1.25em;
+  color: black; 
+  text-decoration:bold; */
 }
 
 .imagem-perfil {
   display: flex;
   justify-content: left;
-  align-items:right;
+  margin-left: 3em;
+  margin-top: 8em;
   width: 13%;
   height: 25%;
 }
 
 .imagem-projetos-main{
-  float: right;
-  width: 50%;
+  display: flex;
+  /* float: right; */
+  margin-left:50%;
+  margin-top: 6em;
+  width: 47%;
   height:40%;
 }
