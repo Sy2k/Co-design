@@ -2,92 +2,88 @@
 
 
 .titulo-categoria {
+  text-align: center;
+  font-size: 4rem;
 
-  /*position: absolute;
-  left: 10px;
-  top: 70px;
-  width: 1024px;
-  text-align: center; */
+}
+
+
+
+.nome-projeto1 {
+  align-self: auto;
+  margin-left: 5%;
+  margin-top: 10%;
+  font-size: 2.5rem;
+
 }
 
 .imagem-principal-projeto1 {
-  width: 30%;
+  display: flex;
+  justify-content: right;
+  margin-left: 67%;
+  margin-top: -3%;
+  max-width: 30%;
+  max-height: 30%;
+
   }
-  /*position: absolute;
-  left: 950px;
-  top: 25px;
-  width: 300px;
-  height: 300px; 
 
-
-.imagem-principal-projeto2 {
-  position: absolute;
-  left: 950px;
-  top: 25px;
-  width: 300px;
-  height: 300px;
-}
-
-.bloco-projeto1 {
-  /*position:absolute;
-  width: 1300px;
-  height: 350px;
-  border-style: solid;
-  border-width: 0.3px;
-  margin-top: 130px;
-}
-
-.bloco-projeto2 {
-  position: absolute;
-  width: 1300px;
-  height: 350px;
-  border-style: solid;
-  border-width: 0.3px;
-  margin-top: 500px;
-
-}
-.nome-projeto1 {
-  position: absolute;
-  left: 20px;
-  top: 140px;
-  width: 1024px;
-}
-
-.nome-projeto2 {
-  position: absolute;
-  left: 20px;
-  top: 520px;
-  width: 1024px;
+.info-projetos1 {
+  font-size: 1.5rem;
+  margin-left: 7%;
+  margin-top: -20%;
+  
 }
 
 .saber-mais-projeto1 {  
-  position: absolute;
-  left: 50px;
-  top: 450px;
-  width: 1024px;
-  text-align: center
+  margin-left: 35%;
+  font-size: 1.5rem;
+  margin-top: 10%;
+  
+
 }
+
+
+
+
+.nome-projeto2 {
+  align-self: auto;
+  margin-left: 5%;
+  margin-top: 20%;
+  font-size: 2.5rem;
+
+
+}
+
+.imagem-principal-projeto2 {
+  display: flex;
+  justify-content: right;
+  margin-left: 67%;
+  margin-top: -3%;
+  max-width: 30%;
+  max-height: 30%;
+
+  
+}
+
+.info-projetos2 {
+  margin-left: 7%;
+  font-size: 1.5rem;
+  margin-top: -20%;
+
+}
+
+
 
 .saber-mais-projeto2 {  
-  position: absolute;
-  left: 50px;
-  top: 850px;
-  width: 1024px;
-  text-align: center
+  font-size: 1.5rem;
+  margin-left: 35%;
+  margin-top: 10%;
+
 }
 
-.lista-projetos1 {
-  position: absolute;
-  left: 30px;
-  top: 280px;
-  width: 1024px;
-  text-align: left;
-}
 
-.lista-projetos2 {
-  position: absolute;
-  left: 30px;
-  top: 660px;
-  width: 1024px;
-  text-align: left;
-}*/
+
+
+
+
+
