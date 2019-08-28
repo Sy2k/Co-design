@@ -27,5 +27,5 @@
 .imagem-projeto{
   width: 35rem;
   height: 35rem;
-  align-self: center;
+  justify-self: center;
 }
