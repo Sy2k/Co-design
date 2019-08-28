@@ -1,19 +1,31 @@
 .titulo-projeto {
+  font-family: 'Lato', sans-serif;
   font-size: 4rem;
   text-align: center;
 }
 
-.imagem-projeto {
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 4rem;
+.dados-projeto {
   margin-top: 3rem;
-  max-width: 30rem;
-  max-height: 30rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.descricao-projeto {
-  align-self: flex-start;
-  margin-left: 35rem;
-  margin-top: -25rem;
+.dados-projeto-item {
+  grid-column: 2;
+  margin: 1rem;
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 1.5rem;
+  text-align: start;
+}
+
+.dados-projeto-imagem {
+  grid-row: 1/5;
+  grid-column: 1;
+  margin-left: 3rem;
+}
+
+.imagem-projeto{
+  width: 35rem;
+  height: 35rem;
+  align-self: center;
 }
