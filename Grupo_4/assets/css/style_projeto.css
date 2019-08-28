@@ -1,22 +1,19 @@
 .titulo-projeto {
-  position: absolute;
-  left: 10px;
-  top: 100px;
-  width: 1024px;
+  font-size: 4rem;
   text-align: center;
 }
 
-.book-image {
-  position: absolute;
-  left: 10px;
-  top: 150px;
-  width: 400px;
-  height: 500px;
+.imagem-projeto {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 4rem;
+  margin-top: 3rem;
+  max-width: 30rem;
+  max-height: 30rem;
 }
 
-.book-text {
-  position: absolute;
-  left: 420px;
-  top: 150px;
-  width: 604px;
+.descricao-projeto {
+  align-self: flex-start;
+  margin-left: 35rem;
+  margin-top: -25rem;
 }

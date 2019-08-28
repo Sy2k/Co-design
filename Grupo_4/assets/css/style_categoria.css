@@ -1,89 +1,62 @@
 /* categoria.html */
 
-
 .titulo-categoria {
   text-align: center;
   font-size: 4rem;
-
 }
-
-
 
 .nome-projeto1 {
   align-self: auto;
   margin-left: 5%;
   margin-top: 10%;
   font-size: 2.5rem;
-
 }
 
 .imagem-principal-projeto1 {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
   margin-left: 67%;
   margin-top: -3%;
   max-width: 30%;
   max-height: 30%;
-
-  }
+}
 
 .info-projetos1 {
   font-size: 1.5rem;
   margin-left: 7%;
   margin-top: -20%;
-  
 }
 
 .saber-mais-projeto1 {  
   margin-left: 35%;
   font-size: 1.5rem;
   margin-top: 10%;
-  
-
 }
-
-
-
 
 .nome-projeto2 {
   align-self: auto;
   margin-left: 5%;
   margin-top: 20%;
   font-size: 2.5rem;
-
-
 }
 
 .imagem-principal-projeto2 {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
   margin-left: 67%;
   margin-top: -3%;
   max-width: 30%;
-  max-height: 30%;
-
-  
+  max-height: 30%; 
 }
 
 .info-projetos2 {
   margin-left: 7%;
   font-size: 1.5rem;
   margin-top: -20%;
-
 }
-
-
 
 .saber-mais-projeto2 {  
   font-size: 1.5rem;
   margin-left: 35%;
   margin-top: 10%;
-
 }
-
-
-
-
-
-
-
