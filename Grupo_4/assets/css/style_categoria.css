@@ -1,10 +1,19 @@
 /* categoria.html */
 
 
+.organizando{
+  display: block;
+
+}
+
+
+
 .titulo-categoria {
   text-align: center;
   font-size: 4rem;
   font-family: 'Lato', sans-serif;
+
+
 
 }
 
@@ -22,7 +31,7 @@
 .imagem-principal-projeto1 {
   display: flex;
   justify-content: right;
-  margin-left: 67%;
+  margin-left: 20%;
   margin-top: -3%;
   max-width: 30%;
   max-height: 30%;
@@ -62,7 +71,7 @@
 .imagem-principal-projeto2 {
   display: flex;
   justify-content: right;
-  margin-left: 67%;
+  margin-left: 20%;
   margin-top: -3%;
   max-width: 30%;
   max-height: 30%;
