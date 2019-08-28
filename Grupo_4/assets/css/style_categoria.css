@@ -4,6 +4,7 @@
 .titulo-categoria {
   text-align: center;
   font-size: 4rem;
+  font-family: 'Lato', sans-serif;
 
 }
 
@@ -14,6 +15,7 @@
   margin-left: 5%;
   margin-top: 10%;
   font-size: 2.5rem;
+  font-family: 'Libre Caslon Text', serif;
 
 }
 
@@ -31,6 +33,7 @@
   font-size: 1.5rem;
   margin-left: 7%;
   margin-top: -20%;
+  font-family: 'Libre Caslon Text', serif;
   
 }
 
@@ -38,6 +41,7 @@
   margin-left: 35%;
   font-size: 1.5rem;
   margin-top: 10%;
+  font-family: 'Libre Caslon Text', serif;
   
 
 }
@@ -50,6 +54,7 @@
   margin-left: 5%;
   margin-top: 20%;
   font-size: 2.5rem;
+  font-family: 'Libre Caslon Text', serif;
 
 
 }
@@ -69,6 +74,7 @@
   margin-left: 7%;
   font-size: 1.5rem;
   margin-top: -20%;
+  font-family: 'Libre Caslon Text', serif;
 
 }
 
@@ -78,6 +84,7 @@
   font-size: 1.5rem;
   margin-left: 35%;
   margin-top: 10%;
+  font-family: 'Libre Caslon Text', serif;
 
 }
 
