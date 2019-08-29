@@ -1,6 +1,47 @@
 /* index.html */
-<<<<<<< HEAD
+
 .div-perfil{
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+}
+.imagem-perfil{
+  display: grid;
+  max-width: 95%;
+  min-width: 55%;
+  padding-left:1%;
+}
+.div-perfil-2{
+  display:grid;
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 150%;
+  text-align: start;
+}
+.info-pessoal-item{
+  display: grid;
+  grid-column: 1;
+}
+
+.projetos{
+  display:grid;
+  grid-template-columns: 1fr 3fr;
+}
+.imagem-projetos-main{
+  grid-column: 2;
+  max-width: 50%;
+  max-height: 30%;
+  min-width: 30;
+  min-height: 10%;
+}
+
+.link-categoria{
+}
+
+
+
+
+
+
+/* .div-perfil{
   width: 20%;
   height: 20%;
 }
@@ -27,14 +68,13 @@
     flex-direction: column;
     padding-left: 18.5%;
 }
-=======
->>>>>>> a00e34cf666279c13cbea9fad03f546049316ed8
+
 .info-pessoal {
   display: flex;
   margin-top: 10rem;
   max-width: 54.2%;
   justify-content: center;
-}
+} */
 
 
 .link-categoria {
@@ -61,12 +101,10 @@
   justify-content: right;
   max-width: 45%;
   max-height: 45%;
-<<<<<<< HEAD
   min-width: 40%;
   min-height: 40%; */
   /* margin-left: 40%;
   margin-top: -7%; */
 }
-=======
-}
->>>>>>> a00e34cf666279c13cbea9fad03f546049316ed8
+
+
