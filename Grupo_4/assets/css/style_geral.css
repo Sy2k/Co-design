@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding-right: 1rem;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
 }
 
 .logo {
@@ -12,30 +12,3 @@
   height: 2.5rem;
 } 
 
-  display: grid;
-  grid-template-columns: 1fr 5fr;
-  border-top-width: 0.15em;
-<<<<<<< HEAD
-}
-
-/* .header{
-=======
-} */
-
-.header{
->>>>>>> 7b116c0c531abe68de98623308e5a72c0ddda68f
-  display: grid;
-  grid-template-columns: 1fr 5fr;
-  border-top-width: 0.15em;
-}
-.logo {
-  grid-column: 1;
-  margin: 1rem;
-  width: 13rem;
-  height: 2.5rem;
-}
-
-.menu-logo-item {
-  grid-column: 2;
-  margin: 1.5rem; 
-} */
