@@ -1,4 +1,5 @@
 /* index.html */
+<<<<<<< HEAD
 .div-perfil{
   width: 20%;
   height: 20%;
@@ -26,6 +27,8 @@
     flex-direction: column;
     padding-left: 18.5%;
 }
+=======
+>>>>>>> a00e34cf666279c13cbea9fad03f546049316ed8
 .info-pessoal {
   display: flex;
   margin-top: 10rem;
@@ -58,8 +61,12 @@
   justify-content: right;
   max-width: 45%;
   max-height: 45%;
+<<<<<<< HEAD
   min-width: 40%;
   min-height: 40%; */
   /* margin-left: 40%;
   margin-top: -7%; */
 }
+=======
+}
+>>>>>>> a00e34cf666279c13cbea9fad03f546049316ed8

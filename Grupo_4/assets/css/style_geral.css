@@ -1,4 +1,5 @@
 .header {
+<<<<<<< HEAD
   display: flex;
   height: 2rem;
   justify-content: space-between;
@@ -11,3 +12,22 @@
   width: 13rem;
   height: 2.5rem;
 }
+=======
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  border-top-width: 0.15em;
+}
+
+.logo {
+  grid-column: 1;
+  margin: 1rem;
+  width: 13rem;
+  height: 2.5rem;
+}
+
+.menu-logo-item {
+  grid-column: 2;
+  margin: 1.5rem; 
+  align-self: end;
+}
+>>>>>>> a00e34cf666279c13cbea9fad03f546049316ed8
