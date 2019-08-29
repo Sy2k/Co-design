@@ -1,48 +1,65 @@
 /* index.html */
-.pessoal{
+.div-perfil{
+  width: 20%;
+  height: 20%;
+}
+.div-perfil-2{
+  display: flex;
+  max-width: 20%;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 18.5%;
+} 
+.imagem-perfil {
+  display: flex;
+  justify-content: left;
+  padding-left: 2%;
+  max-width: 88%;
+  max-height: 88%;
+  min-width: 50%;
+  min-height: 50%;
+}
+.info-pessoal-item{
+    display: flex;
+    max-width: 20%;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 18.5%;
 }
 .info-pessoal {
-  align-self: auto;
-  margin-left: 18%;
-  margin-top: -13%;
+  display: flex;
+  margin-top: 10rem;
+  max-width: 54.2%;
+  justify-content: center;
 }
 
-.info-pessoal-item {
-  margin-left: 20%;
-  align-self: auto;
-}
 
 .link-categoria {
-  margin-left: 1%;
-  margin-top: 5%;
+  /* margin-left: 1%;
+  margin-top: 5%; */
   /* font-size: 4em;s
   color: blue; 
   text-decoration:bold; */
 }
 
-.link-categoria-item {
-  align-self: auto;
-  margin-top: auto;
-  margin-left: 5%;
+/* .link-categoria-item {
+  align-self: auto; */
+  /* margin-top: auto;
+  margin-left: 5%; */
   /* font-size: 1.25em;
   color: black; 
   text-decoration:bold; */
 }
 
-.imagem-perfil {
-  display: flex;
-  justify-content: left;
-  margin-left: 3%;
-  margin-top: 2.5%;
-  max-width: 13%;
-  max-height: 13%;
-}
 
-.imagem-projetos-main{
+
+/* .imagem-projetos-main{
   display: flex;
-  justify-content: left;
-  margin-left: 40%;
-  margin-top: -7%;
+  justify-content: right;
   max-width: 45%;
   max-height: 45%;
+  min-width: 40%;
+  min-height: 40%; */
+  /* margin-left: 40%;
+  margin-top: -7%; */
 }
