@@ -10,7 +10,7 @@
   height: 100%;
 }
 
-.titulo-categoria{
+.titulo-categoria {
   padding-top: 1rem;
   display: flex;
   justify-content: center;
@@ -26,7 +26,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -35,14 +35,14 @@
   padding-right: 1rem;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-around; ;
+  justify-content: space-around;
   height: 100%;
 }
 
 .projeto-menu-item-image {
   width: 15rem;
   height: 15rem;
-  padding-top: 0.5rem; 
+  padding-top: 0.5rem;
 }
 
 .projeto-menu-item-text {
