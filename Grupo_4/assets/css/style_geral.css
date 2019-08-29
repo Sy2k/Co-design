@@ -15,9 +15,15 @@
   display: grid;
   grid-template-columns: 1fr 5fr;
   border-top-width: 0.15em;
+<<<<<<< HEAD
 }
 
 /* .header{
+=======
+} */
+
+.header{
+>>>>>>> 7b116c0c531abe68de98623308e5a72c0ddda68f
   display: grid;
   grid-template-columns: 1fr 5fr;
   border-top-width: 0.15em;
