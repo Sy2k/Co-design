@@ -21,7 +21,6 @@
   margin-top: 2rem;
 }
 
-
 .projetos-menu {
   margin-top: 4rem;
   width: 100%;
@@ -40,8 +39,6 @@
   height: 100%;
 }
 
-
-
 .projeto-menu-item-image {
   width: 15rem;
   height: 15rem;
@@ -49,16 +46,15 @@
 }
 
 .projeto-menu-item-text {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    padding-left: 1rem;
-    width: 50rem;
-    height: 15rem;
-    padding-top: 2rem;
-    flex-wrap: wrap;
-
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 1rem;
+  width: 50rem;
+  height: 15rem;
+  padding-top: 2rem;
+  flex-wrap: wrap;
 }
 
 .texto{
@@ -66,8 +62,6 @@
   font-family: 'Libre Caslon Text', serif;
   padding-top: 1rem;
   padding-left: 1rem;
-
-
 }
 
 .nome_projeto{
@@ -81,14 +75,4 @@
   text-align: right;
   line-height: 3rem;
   padding-bottom: 1rem;
-;
-  
 }
-
-
-
-
-
-
-
-

@@ -16,6 +16,7 @@
   grid-template-columns: 1fr 5fr;
   border-top-width: 0.15em;
 } */
+
 .header{
   display: grid;
   grid-template-columns: 1fr 5fr;
