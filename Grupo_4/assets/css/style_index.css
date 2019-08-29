@@ -1,6 +1,6 @@
 /* index.html */
 
-.div-perfil{
+/* .div-perfil{
   display: grid;
   grid-template-columns: 1fr 6fr;
 }
@@ -34,24 +34,31 @@
 }
 
 .link-categoria{
-}
+} */
 
 
 
 
 
 
-/* .div-perfil{
+.div-perfil{
   width: 20%;
   height: 20%;
 }
 .div-perfil-2{
   display: flex;
-  max-width: 20%;
+  max-width: 22%;
   justify-content: flex-start;
   flex-direction: column;
-  padding-left: 18.5%;
+  padding-left: 19.5%;
+  align-items: start;
+  margin-top: -29%;
 } 
+.div-projeto-1{
+  display: flex;
+  max-width: 40%;
+  max-height: auto;
+}
 .imagem-perfil {
   display: flex;
   justify-content: left;
@@ -74,37 +81,37 @@
   margin-top: 10rem;
   max-width: 54.2%;
   justify-content: center;
-} */
+} 
 
-
+/* 
 .link-categoria {
   /* margin-left: 1%;
   margin-top: 5%; */
   /* font-size: 4em;s
   color: blue; 
-  text-decoration:bold; */
+  text-decoration:bold;  */
 }
 
-/* .link-categoria-item {
-  align-self: auto; */
-  /* margin-top: auto;
-  margin-left: 5%; */
-  /* font-size: 1.25em;
+.link-categoria-item {
+  /* align-self: auto;
+  margin-top: auto;
+  margin-left: 5%; 
+  font-size: 1.25em;
   color: black; 
   text-decoration:bold; */
 }
 
 
 
-/* .imagem-projetos-main{
+.imagem-projetos-main{
   display: flex;
   justify-content: right;
   max-width: 45%;
   max-height: 45%;
-  min-width: 40%;
-  min-height: 40%; */
-  /* margin-left: 40%;
-  margin-top: -7%; */
+  min-width: 20%;
+  min-height: 20%; 
+  margin-left: 40%;
+  margin-top: -7%;
 }
 
 
