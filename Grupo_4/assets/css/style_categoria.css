@@ -19,6 +19,7 @@
   font-size: 4rem;
   text-align: center;
   margin-top: 2rem;
+  color: #0E0357;
 
 }
 
@@ -83,7 +84,7 @@
 .nome_projeto{
   font-size: 1.5rem;
   font-family: 'Libre Caslon Text', serif;
-  color: #0E0357;
+  color: #4908ED;
 
 }
 
@@ -93,6 +94,6 @@
   text-align: right;
   line-height: 3rem;
   padding-bottom: 1rem;
-  color: #0E0357;
+  color: #1C05AD;
   text-decoration: none;
 }
