@@ -38,6 +38,7 @@
   font-family: 'Libre Caslon Text', serif;
   font-size: 1.5rem;
   text-align: start;
+  color: #4908ED;
 }
 
 .info-pessoal-item{
@@ -57,6 +58,7 @@
   font-family: 'Libre Caslon Text', serif;
   font-size: 3rem;
   text-align: start;
+  color: #0E0357;
 }
 
 .categorias-item{
@@ -64,5 +66,9 @@
   font-family: 'Libre Caslon Text', serif;
   font-size: 1.5rem;
   text-align: start;
+  color: #1C05AD;
+  text-decoration: none;
+
 }
+
 
