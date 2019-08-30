@@ -3,6 +3,8 @@
 .itens-totais{
   display: flex;
   flex-flow: column;
+  max-width: 1043px;
+  align-self: center;
 }
 
 .itens-em-cima{
