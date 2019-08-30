@@ -19,8 +19,13 @@
   font-size: 4rem;
   text-align: center;
   margin-top: 2rem;
+  color: #0E0357;
+
 }
 
+.body{
+  background-color: #F7F7F7;   
+}
 .projetos-menu {
   margin-top: 4rem;
   width: 100%;
@@ -28,15 +33,27 @@
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
+
 }
 
-.projeto-menu-item {
+.projeto-menu-item2 {
   margin-top: 1rem;
   padding-right: 1rem;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
   height: 100%;
+  background-color:#EDEDED;
+  }
+
+.projeto-menu-item1 {
+  margin-top: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  height: 100%;
+  background-color:#EDEDED;
 }
 
 .projeto-menu-item-image {
@@ -67,6 +84,8 @@
 .nome_projeto{
   font-size: 1.5rem;
   font-family: 'Libre Caslon Text', serif;
+  color: #4908ED;
+
 }
 
 .saber_mais{
@@ -75,4 +94,6 @@
   text-align: right;
   line-height: 3rem;
   padding-bottom: 1rem;
+  color: #1C05AD;
+  text-decoration: none;
 }
