@@ -1,4 +1,7 @@
 /* index.html */
+.main{
+  background-color: #F7F7F7;
+}
 
 .itens-totais{
   display: flex;
