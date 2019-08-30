@@ -5,10 +5,25 @@
   align-items: center;
   padding-right: 1rem;
   padding-top: 1rem;
+  max-width: 1200px;
 }
 
 .logo {
   width: 13rem;
   height: 2.5rem;
 } 
+
+.body{
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
+.main{
+  max-width: 1043px;
+}
+
+.body-item{
+	margin: 0 auto;
+}
 
