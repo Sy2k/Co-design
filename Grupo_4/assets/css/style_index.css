@@ -30,8 +30,8 @@
 }
 
 .imagem-perfil{
-  width: 10rem;
-  height: 10rem;
+  max-width: 10rem;
+  max-height: 10rem;
 }
 
 .info-pessoal{
@@ -47,10 +47,10 @@
   text-align: start;
 }
 
-.imagem-projeto-main{
+.imagem-projetos-main{
   justify-content: center;
-  width: 20rem;
-  height: 10rem;
+  width: 33rem;
+  height: 15rem;
 }
 
 .categorias{
