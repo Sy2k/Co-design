@@ -20,12 +20,12 @@
   text-align: center;
   margin-top: 2rem;
   color: #0E0357;
-
 }
 
-.body{
+.body {
   background-color: #F7F7F7;   
 }
+
 .projetos-menu {
   margin-top: 4rem;
   width: 100%;
@@ -33,7 +33,6 @@
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-
 }
 
 .projeto-menu-item2 {
@@ -44,7 +43,7 @@
   justify-content: space-around;
   height: 100%;
   background-color:#EDEDED;
-  }
+}
 
 .projeto-menu-item1 {
   margin-top: 1rem;
@@ -74,21 +73,20 @@
   flex-wrap: wrap;
 }
 
-.texto{
+.texto {
   font-size: 1rem;
   font-family: 'Libre Caslon Text', serif;
   padding-top: 1rem;
   padding-left: 1rem;
 }
 
-.nome_projeto{
+.nome_projeto {
   font-size: 1.5rem;
   font-family: 'Libre Caslon Text', serif;
   color: #4908ED;
-
 }
 
-.saber_mais{
+.saber_mais {
   font-family: 'Libre Caslon Text', serif;
   font-size: 1rem;
   text-align: right;
