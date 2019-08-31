@@ -1,13 +1,15 @@
 /* index.html */
-.main{
+/* .main{
   background-color: #F7F7F7;
-}
+} */
 
 .itens-totais{
   display: flex;
   flex-flow: column;
   max-width: 1043px;
   align-self: center;
+  background-color:#EDEDED;
+
 }
 
 .itens-em-cima{
@@ -18,6 +20,8 @@
 .itens-em-baixo{
   display: flex;
   flex-flow: row;
+  background-color:#EDEDED;
+
 }
 
 .itens-em-cima-item{
@@ -35,6 +39,8 @@
 .imagem-perfil{
   max-width: 10rem;
   max-height: 10rem;
+  min-width: 5rem;
+  min-height: 5rem;
 }
 
 .info-pessoal{
@@ -42,6 +48,8 @@
   font-size: 1.5rem;
   text-align: start;
   color: #4908ED;
+  text-decoration: none;            
+
 }
 
 .info-pessoal-item{
@@ -53,12 +61,15 @@
 
 .imagem-projetos-main{
   justify-content: center;
-  width: 33rem;
-  height: 15rem;
+  max-width: 33rem;
+  max-height: 15rem;
+  min-width: 23rem;
+  min-height:5rem;
 }
 
 .categorias{
   font-family: 'Libre Caslon Text', serif;
+  font-weight: bolder;
   font-size: 3rem;
   text-align: start;
   color: #0E0357;
@@ -71,7 +82,19 @@
   text-align: start;
   color: #1C05AD;
   text-decoration: none;
-
 }
-
-
+.link1{
+  text-decoration: none;
+}
+.link2{
+  text-decoration:none; 
+}
+.link3{
+  text-decoration: none;
+}
+.link4{
+  text-decoration: none;
+}
+.link5{
+  text-decoration: none;
+}
