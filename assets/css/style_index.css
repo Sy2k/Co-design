@@ -9,7 +9,7 @@
 }
 .link123{
   text-decoration: none;
-  color:#EDEDED;
+  color:#FFFFFF;
 }
 .link-categoria{
   text-decoration: none;
@@ -49,9 +49,9 @@
   font-family: 'Libre Caslon Text', serif;
   font-size: 1.5rem;
   text-align: start;
-  color: #0E0357;
-  text-decoration: none;  
-  font-weight: bolder;          
+  color: #4908ED;
+  text-decoration: none;            
+
 }
 
 .info-pessoal-item{
@@ -59,7 +59,6 @@
   font-family: 'Libre Caslon Text', serif;
   font-size: 1rem;
   text-align: start;
-  color:#1C05AD;
 }
 
 .imagem-projetos-main{
