@@ -36,3 +36,12 @@
 	/* text-decoration: none; */
 	color: #F7F7F7;
 }
+
+
+@media (max-width: 360px) {
+	.header{
+		min-width: 190%;
+	}
+
+  
+}
