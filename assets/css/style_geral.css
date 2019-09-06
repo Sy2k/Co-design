@@ -39,8 +39,13 @@
 
 
 @media (max-width: 360px) {
+
 	.header{
 		min-width: 190%;
+
+	}
+	.main {
+		max-width: 370px;
 	}
 
   

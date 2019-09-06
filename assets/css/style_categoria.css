@@ -87,26 +87,15 @@
 
 @media (max-width: 360px) {
 
-    .projeto-menu-item-text{
-      align-items: flex-end ;
-      justify-content: flex-start; 
-      margin-right: 2rem; 
-
-    }
     .projeto-menu-item {
       flex-direction: row;
-      max-width: 95%;
+      max-width: 64%;
     }
 
-    .projeto-menu-item-image {
-      width: 15rem;
-      height: 15rem;
-      align-content: center;
+    .titulo-categoria {
+        font-size: 3rem;
+    }
 
-}
     .secao-title {
-      justify-content: space-between;
-    }
-
-
+        width: 190%;
 }
