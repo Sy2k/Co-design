@@ -86,16 +86,38 @@
 }
 
 @media (max-width: 360px) {
+  .header{
+    width: 360px;
+  }
+  .projeto-menu-item {
+    flex-direction: row;
+    width:25rem;
+  }
 
-    .projeto-menu-item {
-      flex-direction: row;
-      max-width: 64%;
-    }
+  .titulo-categoria {
+    font-size: 3rem;
+  }
 
-    .titulo-categoria {
-        font-size: 3rem;
-    }
-
-    .secao-title {
-        width: 190%;
+  .secao-title {
+    width: 25rem;  
+  }
+  .projeto-menu-item-text{
+    width:15rem;
+  }
+  .projeto-menu-item-image {
+    width: 8rem;
+    height: 8rem;
+    padding-top: 0.5rem;
+  }
+  .titulo-categoria{
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: #0E0357;
+  }
 }

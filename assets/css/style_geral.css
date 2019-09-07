@@ -38,15 +38,37 @@
 }
 
 
-@media (max-width: 360px) {
+@media (max-width: 420px) {
 
 	.header{
-		min-width: 190%;
+		width: 100%;
 
 	}
 	.main {
-		max-width: 370px;
+		width: 100%;
 	}
 
-  
+}
+@media (max-width: 420px) {
+
+	.header{
+		max-width: 100%;
+
+	}
+	.main {
+		max-width: 100%;
+	}
+
+}
+/* IPAD */
+@media (width: 768px) {
+
+	.header{
+		max-width: 100%;
+
+	}
+	.main {
+		max-width: 100%;
+	}
+
 }
