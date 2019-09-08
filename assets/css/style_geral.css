@@ -36,3 +36,39 @@
 	/* text-decoration: none; */
 	color: #F7F7F7;
 }
+
+
+@media (max-width: 420px) {
+
+	.header{
+		width: 100%;
+
+	}
+	.main {
+		width: 100%;
+	}
+
+}
+@media (max-width: 420px) {
+
+	.header{
+		max-width: 100%;
+
+	}
+	.main {
+		max-width: 100%;
+	}
+
+}
+/* IPAD */
+@media (width: 768px) {
+
+	.header{
+		max-width: 100%;
+
+	}
+	.main {
+		max-width: 100%;
+	}
+
+}
