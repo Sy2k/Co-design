@@ -86,9 +86,6 @@
 }
 
 @media (max-width: 360px) {
-  .header{
-    width: 360px;
-  }
   .projeto-menu-item {
     flex-direction: row;
     width:25rem;
