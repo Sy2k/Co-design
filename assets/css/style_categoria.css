@@ -84,7 +84,7 @@
   color: #1C05AD;
   text-decoration: none;
 }
-
+/* 
 @media (max-width: 360px) {
   .projeto-menu-item {
     flex-direction: row;
@@ -116,5 +116,26 @@
     text-align: center;
     margin-top: 2rem;
     color: #0E0357;
+  }
+} */
+
+@media (max-width: 420px){
+  .projeto-menu-item-image {
+    display: flex;
+    flex-direction: wrap-reverse;
+    width:50%;
+  }
+  .projeto-menu-item{
+    max-width:100%;
+  }
+  .projeto-menu-item-text{
+    padding-right: 0.5rem;
+    width:50%;
+  }
+  .titulo-categoria{
+    padding-top:0rem;
+  }
+  .menu-logo-item{
+    padding-right:1rem;
   }
 }
