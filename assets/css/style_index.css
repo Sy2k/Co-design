@@ -137,10 +137,6 @@
     text-decoration: none;
     padding-left:1rem;
   }
-  .link123{
-		padding-right: 1.5rem;
-	}
-  
 }
 /* IPHONE 5/SE tava dando ruim */
 @media (width: 320px) {

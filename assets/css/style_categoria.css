@@ -83,48 +83,16 @@
   color: #1C05AD;
   text-decoration: none;
 }
-/* 
-@media (max-width: 360px) {
-  .projeto-menu-item {
-    flex-direction: row;
-    width:25rem;
-  }
-
-  .titulo-categoria {
-    font-size: 3rem;
-  }
-
-  .secao-title {
-    width: 25rem;  
-  }
-  .projeto-menu-item-text{
-    width:15rem;
-  }
-  .projeto-menu-item-image {
-    width: 8rem;
-    height: 8rem;
-    padding-top: 0.5rem;
-  }
-  .titulo-categoria{
-    padding-top: 0.5rem;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 2rem;
-    color: #0E0357;
-  }
-} */
 
 @media (max-width: 420px){
   .projeto-menu-item-image {
-    display: flex;
     width:50%;
+    height: 50%;
+    padding: 1rem; 
   }
   .projeto-menu-item{
     max-width:100%;
+
   }
   .projeto-menu-item-text{
     padding-right: 0.5rem;
