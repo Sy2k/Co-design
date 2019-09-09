@@ -38,7 +38,6 @@
   margin-top: 1rem;
   padding-right: 1rem;
   display: flex;
-  flex-direction: row-reverse;
   justify-content: space-around;
   height: 100%;
   background-color:#EDEDED;
@@ -122,7 +121,6 @@
 @media (max-width: 420px){
   .projeto-menu-item-image {
     display: flex;
-    flex-direction: wrap-reverse;
     width:50%;
   }
   .projeto-menu-item{
