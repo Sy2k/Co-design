@@ -86,11 +86,13 @@
 
 @media (max-width: 420px){
   .projeto-menu-item-image {
-    display: flex;
     width:50%;
+    height: 50%;
+    padding: 1rem; 
   }
   .projeto-menu-item{
     max-width:100%;
+
   }
   .projeto-menu-item-text{
     padding-right: 0.5rem;

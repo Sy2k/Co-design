@@ -33,9 +33,9 @@
 }
 
 .menu-logo-item {
-	/* text-decoration: none; */
 	color: #F7F7F7;
 }
+
 .link123{
 	text-decoration: none;
 	color:#FFFFFF;
@@ -48,8 +48,12 @@
 	}
 	.main {
 		width: 100%;
+	} 
+	.link123{
+		padding-right: 1.5rem;
 	}
 }
+
 /* IPAD */
 @media (width: 768px) {
 	.header{
