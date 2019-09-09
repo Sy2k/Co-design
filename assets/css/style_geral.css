@@ -36,11 +36,15 @@
 	/* text-decoration: none; */
 	color: #F7F7F7;
 }
-
+.link123{
+	text-decoration: none;
+	color:#FFFFFF;
+}
 
 @media (max-width: 420px) {
 	.header{
 		width: 100%;
+		padding-right: 0rem;
 	}
 	.main {
 		width: 100%;
@@ -49,9 +53,10 @@
 /* IPAD */
 @media (width: 768px) {
 	.header{
-		max-width: 100%;
+		width: 100%;
+		padding-right:0rem;
 	}
 	.main {
-		max-width: 100%;
+		width: 100%;
 	}
 }
