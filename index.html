@@ -7,6 +7,8 @@
   <link href="assets/css/style_index.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <script src="assets/js/index.js"></script>
+  <script src="assets/js/codes.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
@@ -38,13 +40,11 @@
         <div class="itens-em-baixo">
           <div class="itens-em-baixo-item">
             <p class="categorias">Categorias:</p>
-            <div class="categorias-item">
-              <ul> 
-                <li><a class="link-categoria" href="categoria.html">Design Thinking</a></li>
-                <li><a class="link-categoria" href="categoria.html">Projetos feitos no Fablab</a></li>
-                <li><a class="link-categoria" href="categoria.html">Física</a></li>
-                <li><a class="link-categoria" href="categoria.html">Linguagem Python</a></li>    
-                <li><a class="link-categoria" href="categoria.html">Matematica</a></li>    
+            <div>
+              <ul class="categorias-item">
+                {{#each portifolio}} 
+                <li><a class="link-categoria" href="categoria.html?key={{@key}}">{{this.categoria}}</a></li>
+                {{/each}}    
               </ul>
             </div>
           </div>
