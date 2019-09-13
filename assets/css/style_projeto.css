@@ -43,6 +43,7 @@
   padding-top: 0.5rem;
   padding-bottom: 1rem;
   font-family: 'Libre Caslon Text', serif;
+<<<<<<< HEAD
   font-size: 1rem;
   text-align: left;
 }
@@ -51,6 +52,9 @@
   padding-top: 0rem;
   font-family: 'Libre Caslon Text', serif;
   font-size: 2rem;
+=======
+  font-size: 1.5rem;
+>>>>>>> b93fe5eca65d823690ca8f6314e13047a8bc4d88
   text-align: left;
 }
 
@@ -84,6 +88,7 @@
     font-family: 'Libre Caslon Text', serif;
     font-size: 1.5rem;
     text-align: center;
+<<<<<<< HEAD
   }
   .subtitulos{
       padding-top: 1rem;
@@ -92,4 +97,7 @@
       text-align: center;
     }
    
+=======
+  } 
+>>>>>>> b93fe5eca65d823690ca8f6314e13047a8bc4d88
 }
