@@ -40,10 +40,18 @@
 }
 
 .dados-projeto-item{
-  padding: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
   font-family: 'Libre Caslon Text', serif;
-  font-size: 1.5rem;
-  text-align: center;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.subtitulos{
+  padding-top: 0rem;
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 2rem;
+  text-align: left;
 }
 
 @media (max-width: 420px) {
@@ -72,8 +80,16 @@
     height: 100%;
   }
   .dados-projeto-item{
-    padding: 1rem;
+    padding: 0;
     font-family: 'Libre Caslon Text', serif;
     font-size: 1.5rem;
-  } 
+    text-align: center;
+  }
+  .subtitulos{
+      padding-top: 1rem;
+      font-family: 'Libre Caslon Text', serif;
+      font-size: 2rem;
+      text-align: center;
+    }
+   
 }

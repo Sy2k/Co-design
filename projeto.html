@@ -34,18 +34,18 @@
       <div class="projeto-item">
           <ul class="dados-projeto">
             {{#each items}}
-              <li>
-                <p>
-                  <strong>teste:</strong>{{@key}}
-                </p>
-                <p>
-                  <ul>
-                    <li>teste</li>{{this.1}}
-                    <li>oi</li>{{this.2}}
-                    <li>af</li>{{this.3}}
-                  </ul>
-                </p>
-              </li>
+                <li>
+                  <p class="subtitulos"> 
+                    <strong></strong>{{@key}}
+                  </p>
+                  <p>
+                    <ul class="dados-projeto-item">
+                      <li></li>{{this.item1}}
+                      <li></li>{{this.item2}}
+                      <li></li>{{this.item3}}
+                    </ul>
+                  </p>
+                </li>
             {{/each}}  
           </ul>
       </div>
