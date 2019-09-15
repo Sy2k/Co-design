@@ -7,6 +7,8 @@
   <link href="assets/css/style_categoria.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <script src="assets/js/codes.js"></script>
+  <script src="assets/js/categoria.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
@@ -19,27 +21,19 @@
   </header>
   <main class="main">
     <div class="secao-title">
-      <h1 class="titulo-categoria">{{full_categoria}}</h1>
+        <h1 class="titulo-categoria">{{full_categoria}}</h1>
     </div>
     <div class="projetos-menu">
-      <ul>
-        {{#each biblioteca}}
-        <li class="projeto-menu-item">
-          <img class="projeto-menu-item-image" src="assets/img/ImagemAleatoria.jpg" alt="Uma Imagem do Projeto final de Ciência dos dados, ou seja, uma Análise Exploratória">
-          <div class="projeto-menu-item-text">
-            <p class="nome_projeto">{{this.secao}}</p>
-            <p class="texto">{{this.descricao}}</p>
-            <p><a class="saber_mais" href="projeto.html">Ver mais...</a></p>
-          </div>
-        </li>
-        <!-- <li class="projeto-menu-item">
-          <img class="projeto-menu-item-image" src="assets/img/ImagemAleatoria.jpg" alt="Uma Imagem do Projeto final de Ciência dos dados, ou seja, uma Análise Exploratória">
-          <div class="projeto-menu-item-text">
-            <p class="nome_projeto">Jogo</p>
-            <p class="texto">O Jogo é um projeto desenvolivido por meio da programação na linguagem...</p>
-            <p><a class="saber_mais" href="projeto.html">Ver mais...</a></p> -->
-          </div>
-        </li>
+      <ul class="projetos-menu">
+        {{#each projetos}}
+          <li class="projeto-menu-item">
+            <img class="projeto-menu-item-image" src="assets/img/ImagemAleatoria.jpg" alt="Uma Imagem do Projeto final de Ciência dos dados, ou seja, uma Análise Exploratória">
+            <div class="projeto-menu-item-text">
+              <p class="nome_projeto">{{this.titulo}}</p>
+              <p class="texto">{{this.descricao}}</p>
+              <p><a class="saber_mais" href="projeto.html?key={{@key}}">Ver mais...</a></p>
+            </div>
+          </li>
         {{/each}}
       </ul>
     </div>
