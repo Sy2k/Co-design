@@ -1,24 +1,22 @@
-  document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
   let params = coDesExtract()
   let value = params['key']
-
   let db = coDesConnect('https://portefeuille-7f9ce.firebaseio.com/')
 
   db.download('/', function(data) {
 
-    context = data['biblioteca'][value]
-    coDesReplace('title', context)
+    let context = data['portifolio'][value]
+    let title = context["Categoria"]
+    coDesReplace('title', title)
+    coDesReplace('.titulo-categoria', title)
 
-    context = data
-    coDesReplace('.titulo-categoria', context)
+    let menu = data['portifolio'][value]
+    coDesReplace('.projetos-menu', menu)
 
-    context = data['biblioteca'][value]
-    coDesReplace('.projetos-menu', context)
+    let nome = data['portifolio'][value]
+    coDesReplace('.nome_projeto', nome)
 
-    context = data['biblioteca'][value]
-    coDesReplace('.nome_projeto', context)
-
-    context = data['biblioteca'][value]
-    coDesReplace('.texto', context)
+    let text = data['portifolio'][value]
+    coDesReplace('.texto', text)
   })
 })
