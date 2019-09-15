@@ -4,11 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
   let db = coDesConnect('https://portefeuille-7f9ce.firebaseio.com/')
 
   db.download('/', function(data) {
-
-    let context = data['portifolio'][value]
-    let title = context["Categoria"]
-    coDesReplace('title', title)
-    coDesReplace('.titulo-categoria', title)
+    let context = data['portifolio'][value]['categoria']
+    coDesReplace('title', context)
+    coDesReplace('.titulo-categoria', context)
+    
+    // let context = data['portifolio'][value]
+    // let title = context['categoria']
+    // coDesReplace('title', title)
+    // coDesReplace('.titulo-categoria', title)
 
     let menu = data['portifolio'][value]
     coDesReplace('.projetos-menu', menu)
