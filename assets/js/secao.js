@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', function() {
   let params = coDesExtract()
   let value = params['key']
 
@@ -10,12 +10,15 @@ document.addEventListener('DOMContentLoaded', function() {
     coDesReplace('title', context)
 
     context = data
-    coDesReplace('.menu-list', context)
+    coDesReplace('.titulo-categoria', context)
 
     context = data['biblioteca'][value]
-    coDesReplace('.call', context)
+    coDesReplace('.projetos-menu', context)
 
     context = data['biblioteca'][value]
-    coDesReplace('.book-list', context)
+    coDesReplace('.nome_projeto', context)
+
+    context = data['biblioteca'][value]
+    coDesReplace('.texto', context)
   })
 })

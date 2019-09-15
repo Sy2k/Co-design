@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<title>ProgramPython</title>
+	<title>{{full_categoria}}</title>
 	<link href="assets/css/reset.css" rel="stylesheet">
 	<link href="assets/css/style_geral.css" rel="stylesheet">
   <link href="assets/css/style_categoria.css" rel="stylesheet">
@@ -19,26 +19,28 @@
   </header>
   <main class="main">
     <div class="secao-title">
-      <h1 class="titulo-categoria">Linguagem Python</h1>
+      <h1 class="titulo-categoria">{{full_categoria}}</h1>
     </div>
     <div class="projetos-menu">
       <ul>
+        {{#each biblioteca}}
         <li class="projeto-menu-item">
           <img class="projeto-menu-item-image" src="assets/img/ImagemAleatoria.jpg" alt="Uma Imagem do Projeto final de Ciência dos dados, ou seja, uma Análise Exploratória">
           <div class="projeto-menu-item-text">
-            <p class="nome_projeto">Análise</p>
-            <p class="texto">Projeto Análise foi desenvolido no segundo semestre da...</p>
+            <p class="nome_projeto">{{this.secao}}</p>
+            <p class="texto">{{this.descricao}}</p>
             <p><a class="saber_mais" href="projeto.html">Ver mais...</a></p>
           </div>
         </li>
-        <li class="projeto-menu-item">
+        <!-- <li class="projeto-menu-item">
           <img class="projeto-menu-item-image" src="assets/img/ImagemAleatoria.jpg" alt="Uma Imagem do Projeto final de Ciência dos dados, ou seja, uma Análise Exploratória">
           <div class="projeto-menu-item-text">
             <p class="nome_projeto">Jogo</p>
             <p class="texto">O Jogo é um projeto desenvolivido por meio da programação na linguagem...</p>
-            <p><a class="saber_mais" href="projeto.html">Ver mais...</a></p>
+            <p><a class="saber_mais" href="projeto.html">Ver mais...</a></p> -->
           </div>
         </li>
+        {{/each}}
       </ul>
     </div>
   </main>
