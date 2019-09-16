@@ -1,5 +1,64 @@
 /* index.html */
 
+/* SLIDER  */
+/* .slider {
+  justify-content: center;
+  max-width: 33rem;
+  max-height: 15rem;
+  min-width: 23rem;
+  min-height:5rem;
+  padding-right:1.5rem;
+   }
+  
+.slider li {
+  list-style: none;
+  position: absolute;
+}
+  
+.slider img {
+  margin: auto;
+  height: 70%;
+  width: 65%;
+  vertical-align: top;
+} 
+.slider input {
+  display: none;
+}
+.slider label {
+  background-color: #0E0357;
+  bottom: 1rem;
+  cursor: pointer;
+  display: block;
+  height: 1rem;
+  position: absolute;
+  width: 10px;
+  z-index: 10;
+  align-items: center;
+}
+
+.slider li:nth-child(1) label {
+  left: 1rem;
+}
+
+.slider li:nth-child(3) label {
+  left: 3rem;
+ } 
+
+.slider img {
+opacity: 0;
+visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+opacity: 1;
+visibility: visible;
+z-index: 10;
+}  */
+
+.mySlides{
+  max-width: 50%;
+}
+/* ---------------- FIM DOS ITENS DO SLIDES------------------- */
 .itens-totais{
   display: flex;
   flex-flow: column;
@@ -7,17 +66,21 @@
   align-self: center;
   background-color:#EDEDED;
 }
+
 .link123{
   text-decoration: none;
   color:#FFFFFF;
 }
+
 .menu-logo{
   padding-top:0.5rem;
 }
+
 .link-categoria{
   text-decoration: none;
   color:#1C05AD;
 }
+
 .itens-em-cima{
   display: flex;
   flex-flow: row;
@@ -65,13 +128,13 @@
   padding-left:1rem;
 }
 
-.imagem-projetos-main{
+/* .imagem-projetos-main{
   justify-content: center;
   max-width: 33rem;
   max-height: 15rem;
   min-width: 23rem;
   min-height:5rem;
-}
+} */
 
 .categorias{
   font-family: 'Libre Caslon Text', serif;
