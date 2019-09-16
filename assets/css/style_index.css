@@ -1,61 +1,6 @@
 /* index.html */
-
-/* SLIDER  */
-/* .slider {
-  justify-content: center;
-  max-width: 33rem;
-  max-height: 15rem;
-  min-width: 23rem;
-  min-height:5rem;
-  padding-right:1.5rem;
-   }
-  
-.slider li {
-  list-style: none;
-  position: absolute;
-}
-  
-.slider img {
-  margin: auto;
-  height: 70%;
-  width: 65%;
-  vertical-align: top;
-} 
-.slider input {
-  display: none;
-}
-.slider label {
-  background-color: #0E0357;
-  bottom: 1rem;
-  cursor: pointer;
-  display: block;
-  height: 1rem;
-  position: absolute;
-  width: 10px;
-  z-index: 10;
-  align-items: center;
-}
-
-.slider li:nth-child(1) label {
-  left: 1rem;
-}
-
-.slider li:nth-child(3) label {
-  left: 3rem;
- } 
-
-.slider img {
-opacity: 0;
-visibility: hidden;
-}
-
-.slider li input:checked ~ img {
-opacity: 1;
-visibility: visible;
-z-index: 10;
-}  */
-
-.mySlides{
+/*------------------- SLIDER DO INDEX -------------*/
+.imagem-projeto-slider{
   max-width: 50%;
 }
 /* ---------------- FIM DOS ITENS DO SLIDES------------------- */
