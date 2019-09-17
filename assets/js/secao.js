@@ -7,12 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
     let context = data['portifolio'][value]
     coDesReplace('title', context)
     coDesReplace('.titulo-categoria', context)
-    
-    
-    // let context = data['portifolio'][value]
-    // let title = context['categoria']
-    // coDesReplace('title', title)
-    // coDesReplace('.titulo-categoria', title)
 
     let menu = data['portifolio'][value]
     coDesReplace('.projetos-menu', menu)
