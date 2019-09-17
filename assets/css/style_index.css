@@ -87,7 +87,7 @@
 /* ---------------- FIM DOS ITENS DO SLIDES------------------- */
 .itens-totais{
   display: flex;
-  flex-flow: column;
+  flex-flow: row;
   max-width: 1043px;
   align-self: center;
   background-color:#EDEDED;
