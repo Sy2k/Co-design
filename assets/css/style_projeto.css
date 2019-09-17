@@ -1,4 +1,3 @@
-
 .main{
   background-color: #F7F7F7;
 }
@@ -40,24 +39,32 @@
 }
 
 .dados-projeto-item{
+  
+}
+
+.descricao{
   padding-top: 0.5rem;
   padding-bottom: 1rem;
   font-family: 'Libre Caslon Text', serif;
-<<<<<<< HEAD
   font-size: 1rem;
   text-align: left;
 }
 
-.subtitulos{
-  padding-top: 0rem;
+.grupo{
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
   font-family: 'Libre Caslon Text', serif;
-  font-size: 2rem;
-=======
-  font-size: 1.5rem;
->>>>>>> b93fe5eca65d823690ca8f6314e13047a8bc4d88
+  font-size: 1rem;
   text-align: left;
 }
 
+.habilidade{
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 1rem;
+  text-align: left;
+}
 @media (max-width: 420px) {
 
   .main{
@@ -88,7 +95,6 @@
     font-family: 'Libre Caslon Text', serif;
     font-size: 1.5rem;
     text-align: center;
-<<<<<<< HEAD
   }
   .subtitulos{
       padding-top: 1rem;
@@ -96,8 +102,4 @@
       font-size: 2rem;
       text-align: center;
     }
-   
-=======
-  } 
->>>>>>> b93fe5eca65d823690ca8f6314e13047a8bc4d88
 }

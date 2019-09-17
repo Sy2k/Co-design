@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-  <title>Análise</title>
+  <title>{{titulo}}</title>
   <link href="assets/css/reset.css" rel="stylesheet">
   <link href="assets/css/style_geral.css" rel="stylesheet">
   <link href="assets/css/style_projeto.css" rel="stylesheet">
@@ -25,29 +25,28 @@
 
   <main class="main">
 
-    <h1 class="titulo-projeto">Análise Exploratória</h1>
-
+    <h1 class="titulo-projeto">{{titulo}}</h1>
     <div class="projeto">
+      {{#each items}}
       <div class="projeto-item">
-        <img class="imagem-projeto" src="assets/img/ImagemAleatoria.jpg" alt="Uma Imagem do Projeto final de Ciência dos dados, ou seja, uma Análise Exploratória">
+        <img class="imagem-projeto" src="assets/img/{{this.imagem}}" alt="{{this.alt}}">
       </div>
       <div class="projeto-item">
           <ul class="dados-projeto">
-            {{#each items}}
-                <li>
-                  <p class="subtitulos"> 
-                    <strong></strong>{{@key}}
-                  </p>
-                  <p>
-                    <ul class="dados-projeto-item">
-                      <li></li>{{this.item1}}
-                      <li></li>{{this.item2}}
-                      <li></li>{{this.item3}}
-                    </ul>
-                  </p>
-                </li>
-            {{/each}}  
+            <ul> 
+              <li style="font-size: 2rem">Descrição:</li>
+              <li class="descricao">{{this.descricao}}</li>
+            </ul>
+            <ul>
+              <li style="font-size: 2rem">Grupo:</li>
+              <li class="grupo">{{this.grupo}}</li>
+            </ul>
+            <ul>
+              <li style="font-size: 2rem">Habilidade:</li>
+              <li class="habilidade">{{this.habilidade}}</li>
+            </ul>
           </ul>
+      {{/each}}    
       </div>
     </div>
   </main>
