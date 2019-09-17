@@ -1,58 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <title>Portefeuille</title>
-    <link href="assets/css/reset.css" rel="stylesheet" />
-    <link href="assets/css/style_geral.css" rel="stylesheet" />
-    <link href="assets/css/style_index.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
-      rel="stylesheet"
-    />
-    <script src="assets/js/index.js"></script>
-    <script src="assets/js/codes.js"></script>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-  </head>
-  <body class="body">
-    <header class="header">
-      <img class="logo" src="assets/img/logo.png" alt="logo" />
-      <ul class="menu-logo">
-        <li><a class="link123" href="index.html">HOME</a></li>
-      </ul>
-    </header>
-    <main class="main" and class="body-item">
-      <div class="itens-totais">
-        <div class="itens-totais-item">
-          <div class="itens-em-cima">
-            <div class="itens-em-cima-item">
-              <img
-                class="imagem-perfil"
-                src="assets/img/perfil.png"
-                alt="foto de perfil"
-              />
-            </div>
-            <div class="itens-em-cima-item">
-              <p class="info-pessoal">Informações Pessoais:</p>
-              <ul class="info-pessoal-item">
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-                <li>Item 4</li>
-              </ul>
-            </div>
-            <div class="itens-em-cima-item">
-              <img
-                class="imagem-projetos-main"
-                src="assets/img/imagem.png"
-                alt="foto dos projetos"
-              />
-            </div>
+<head>  
+  <title>Portefeuille</title>
+  <link href="assets/css/reset.css" rel="stylesheet">
+  <link href="assets/css/style_geral.css" rel="stylesheet">
+  <link href="assets/css/style_index.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <script src="assets/js/index.js"></script>
+  <script src="assets/js/codes.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body class="body">
+  <header class="header">
+    <img class="logo" src="assets/img/logo.png" alt="logo">
+    <ul class="menu-logo">
+      <li><a class="link123" href="index.html">HOME</a></li>
+    </ul>
+  </header>
+  <main class="main" and class="body-item">
+    <div class="itens-totais">
+      <div class="itens-totais-item">
+        <div class="itens-em-cima">
+          <div class="itens-em-cima-item"><img class="imagem-perfil" src="assets/img/perfil.png" alt="foto de perfil"></div>
+          <div class="itens-em-cima-item">
+            <p class="info-pessoal">Informações Pessoais:</p>
+            <ul class="info-pessoal-itens">
+              <li class="info-pessoal-item">1. Nathalie Silva</li>
+              <li class="info-pessoal-item">2. Engenheira de Computação</li>
+              <li class="info-pessoal-item">3. Técnica elétrica</li>
+              <li class="info-pessoal-item">4. 23 anos</li>
+            </ul>
           </div>
+          <div class="itens-em-cima-item">
+            <div class="slideshow-container">
+
+              <div class="slider">
+                <div class="numbertext">1 / 5</div>
+                <img class="imagem-projeto-slider" src="assets/img/estacao.jpeg" alt="Slider dos Projetos, imagem 1">
+                <div class="text">Caption Text</div>
+              </div>
+
+              <div class="slider">
+                  <div class="numbertext">2 / 5</div>
+                  <img class="imagem-projeto-slider" src="assets/img/ambulantes.png" alt="Slider dos Projetos, imagem 2">
+                  <div class="text">Caption Text</div>
+              </div>
+
+              <div class="slider">
+                  <div class="numbertext">3 / 5</div>
+                  <img class="imagem-projeto-slider" src="assets/img/desoft.jpeg" alt="Slider dos Projetos, imagem 3">
+                  <div class="text">Caption Text</div>
+              </div>
+
+              <div class="slider">
+                  <div class="numbertext">4 / 5</div>
+                  <img class="imagem-projeto-slider" src="assets/img/projetos.jpeg" alt="Slider dos Projetos, imagem 4">
+                  <div class="text">Caption Text</div>
+              </div>
+
+
+              <!--GIRAFA <div class="slider">
+                  <div class="numbertext">4 / 5</div>
+                  <img class="imagem-projeto-slider" src="assets/img/estacao.jpeg" alt="Slider dos Projetos, imagem 5">
+                  <div class="text">Caption Text</div>
+              </div> -->
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
         </div>
         <div class="itens-totais-item">
           <div class="itens-em-baixo">

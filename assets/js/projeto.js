@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     coDesReplace(".habilidade", habilidade)
 
     let imagem = data["portifolio"][value]["projetos"][value2]
-    coDesReplace(".imagem-projeto", imagem)
+    coDesReplace(".projeto-item", imagem)
 
   })
 })
