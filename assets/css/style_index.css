@@ -8,7 +8,6 @@
   min-height:5rem;
 }
 
-/* Caption text */
 .text {
   color: #EDEDED;
   font-size: 15px;
@@ -19,16 +18,14 @@
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
   display: flex;
   flex-direction: column;
   color: #EDEDED;
   font-size: 1rem;
-  top-padding: 4.5rem;
+  padding-top: 4.5rem;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 0.7rem;
@@ -38,8 +35,6 @@
   border-radius: 100%;
   display: inline-block;
   transition: background-color 1s ease;
-}
-.align-dot{
   align-items: center;
 }
 
@@ -47,7 +42,6 @@
   background-color: #0E0357;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -167,6 +161,13 @@
 }
 
 @media (max-width: 420px) {
+  .imagem-projeto-slider{
+    display: none;
+  }
+
+  .dot{
+    display: none;
+  }
 
   .itens-totais{
     width: 100%;
@@ -221,6 +222,10 @@
 }
 /* IPAD */
 @media (width: 768px) {
+
+  .imagem-projeto-slider{
+    display: none;
+  }
 
   .itens-totais{
     width: 100%;

@@ -11,6 +11,7 @@
 }
 
 .logo {
+	padding-bottom: 0.5rem;
 	width: 13rem;
 	height: 2.5rem;
 } 
@@ -32,11 +33,8 @@
 	margin: 0 auto;
 }
 
-.menu-logo-item {
-	color: #F7F7F7;
-}
-
-.link123{
+.home{
+	padding-bottom: 0.1rem;
 	text-decoration: none;
 	color:#FFFFFF;
 	padding-top:0.5rem;
@@ -50,7 +48,7 @@
 	.main {
 		width: 100%;
 	} 
-	.link123{
+	.home{
 		padding-right: 0.6rem;
 		padding-top:0.5rem;
 	}
