@@ -5,6 +5,10 @@ document.addEventListener("DOMContentLoaded", function() {
   let db = coDesConnect("https://portefeuille-7f9ce.firebaseio.com/")
 
   db.download("/", function(data) {
+    let titulo = data["portifolio"][value]["projetos"][value2]
+    coDesReplace("title", titulo)
+
+
     let projeto = data["portifolio"][value]["projetos"][value2]
     coDesReplace(".titulo-projeto", projeto)
 

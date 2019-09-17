@@ -27,7 +27,6 @@
 
     <h1 class="titulo-projeto">{{titulo}}</h1>
     <div class="projeto">
-      {{#each items}}
       <div class="projeto-item">
         <img class="imagem-projeto" src="assets/img/{{this.imagem}}" alt="{{this.alt}}">
       </div>
@@ -45,8 +44,7 @@
               <li style="font-size: 2rem">Habilidade:</li>
               <li class="habilidade">{{this.habilidade}}</li>
             </ul>
-          </ul>
-      {{/each}}    
+          </ul>   
       </div>
     </div>
   </main>
