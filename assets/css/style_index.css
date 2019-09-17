@@ -7,29 +7,6 @@
   min-width: 13rem;
   min-height:5rem;
 }
-/* .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: 13rem;
-  padding: 16px;
-  color: #0E0357;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-/* Position the "next button" to the right */
-/* .next {
-  right: 0;
-  border-radius: 1.5rem;
-} */
-/* On hover, add a black background color with a little bit see-through */
-/* .prev:hover, .next:hover {
-  background-color: #FFFFFF;
-} */
 
 /* Caption text */
 .text {
@@ -61,6 +38,9 @@
   border-radius: 100%;
   display: inline-block;
   transition: background-color 1s ease;
+}
+.align-dot{
+  align-items: center;
 }
 
 .active, .dot:hover {

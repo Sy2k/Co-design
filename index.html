@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="pt-br">
 <head>  
   <title>Portefeuille</title>
@@ -25,53 +25,54 @@
         <div class="itens-em-cima">
           <div class="itens-em-cima-item"><img class="imagem-perfil" src="assets/img/perfil.png" alt="foto de perfil"></div>
           <div class="itens-em-cima-item">
-            <p class="info-pessoal">Informações Pessoais:</p>
-            <ul class="info-pessoal-itens">
-              <li class="info-pessoal-item">1. Nathalie Silva</li>
-              <li class="info-pessoal-item">2. Engenheira de Computação</li>
-              <li class="info-pessoal-item">3. Técnica elétrica</li>
-              <li class="info-pessoal-item">4. 23 anos</li>
-            </ul>
+              <p class="info-pessoal">Informações Pessoais:</p>
+              <ul class="info-pessoal-item">
+                <li>1. Nathalie Silva</li>
+                <li>2. Engenheira de Computação</li>
+                <li>3. Técnica elétrica</li>
+                <li>4. 23 anos</li>
+              </ul>
+            </div>
+            <div class="itens-em-cima-item">
+              <div class="slideshow-container">
+  
+                <div class="slider">
+                  <div class="numbertext">1 / 5</div>
+                  <img class="imagem-projeto-slider" src="assets/img/estacao.jpeg" alt="Slider dos Projetos, imagem 1">
+                  <div class="text">Caption Text</div>
+                </div>
+  
+                <div class="slider">
+                    <div class="numbertext">2 / 5</div>
+                    <img class="imagem-projeto-slider" src="assets/img/ambulantes.png" alt="Slider dos Projetos, imagem 2">
+                    <div class="text">Caption Text</div>
+                </div>
+  
+                <div class="slider">
+                    <div class="numbertext">3 / 5</div>
+                    <img class="imagem-projeto-slider" src="assets/img/desoft.jpeg" alt="Slider dos Projetos, imagem 3">
+                    <div class="text">Caption Text</div>
+                </div>
+  
+                <div class="slider">
+                    <div class="numbertext">4 / 5</div>
+                    <img class="imagem-projeto-slider" src="assets/img/projetos.jpeg" alt="Slider dos Projetos, imagem 4">
+                    <div class="text">Caption Text</div>
+                </div>
+  
+  
+                <!--GIRAFA <div class="slider">
+                    <div class="numbertext">4 / 5</div>
+                    <img class="imagem-projeto-slider" src="assets/img/estacao.jpeg" alt="Slider dos Projetos, imagem 5">
+                    <div class="text">Caption Text</div>
+                </div> -->
+              </div>
+              <div>
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
           </div>
-          <div class="itens-em-cima-item">
-            <div class="slideshow-container">
-
-              <div class="slider">
-                <div class="numbertext">1 / 5</div>
-                <img class="imagem-projeto-slider" src="assets/img/estacao.jpeg" alt="Slider dos Projetos, imagem 1">
-                <div class="text">Caption Text</div>
-              </div>
-
-              <div class="slider">
-                  <div class="numbertext">2 / 5</div>
-                  <img class="imagem-projeto-slider" src="assets/img/ambulantes.png" alt="Slider dos Projetos, imagem 2">
-                  <div class="text">Caption Text</div>
-              </div>
-
-              <div class="slider">
-                  <div class="numbertext">3 / 5</div>
-                  <img class="imagem-projeto-slider" src="assets/img/desoft.jpeg" alt="Slider dos Projetos, imagem 3">
-                  <div class="text">Caption Text</div>
-              </div>
-
-              <div class="slider">
-                  <div class="numbertext">4 / 5</div>
-                  <img class="imagem-projeto-slider" src="assets/img/projetos.jpeg" alt="Slider dos Projetos, imagem 4">
-                  <div class="text">Caption Text</div>
-              </div>
-
-
-              <!--GIRAFA <div class="slider">
-                  <div class="numbertext">4 / 5</div>
-                  <img class="imagem-projeto-slider" src="assets/img/estacao.jpeg" alt="Slider dos Projetos, imagem 5">
-                  <div class="text">Caption Text</div>
-              </div> -->
-            </div>
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
         </div>
         <div class="itens-totais-item">
           <div class="itens-em-baixo">
@@ -79,15 +80,9 @@
               <p class="categorias">Categorias:</p>
               <div>
                 <ul class="categorias-item">
-                  {{#each portifolio}}
-                  <li>
-                    <a
-                      class="link-categoria"
-                      href="categoria.html?key={{@key}}"
-                      >{{ this.categoria }}</a
-                    >
-                  </li>
-                  {{/each}}
+                  {{#each portifolio}} 
+                  <li><a class="link-categoria" href="categoria.html?key={{@key}}">{{this.categoria}}</a></li>
+                  {{/each}}    
                 </ul>
               </div>
             </div>
@@ -96,4 +91,4 @@
       </div>
     </main>
   </body>
-</html>
+  </html> 
