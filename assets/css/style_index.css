@@ -37,6 +37,9 @@
   transition: background-color 1s ease;
   align-items: center;
 }
+.align-dot{
+  justify-content: center;
+}
 
 .active, .dot:hover {
   background-color: #0E0357;
@@ -219,6 +222,12 @@
     padding-left:1rem;
     padding-bottom: 1.3rem;
   }  
+  .slideshow-container{
+    display: none;
+  }
+  .dot{
+    display: none;
+  }
 }
 /* IPAD */
 @media (width: 768px) {
@@ -281,5 +290,10 @@
   .link123{
 		padding-right: 1.5rem;
 	}
-  
+  .slideshow-container{
+    display: none;
+  }
+  .dot{
+    display: none;
+  }
 }
