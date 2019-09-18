@@ -64,6 +64,8 @@
   background-color:#EDEDED;
 }
 
+
+
 .link123{
   text-decoration: none;
   color:#FFFFFF;
@@ -127,6 +129,9 @@
 
 .info-pessoal-item{
   padding-top: 0.5rem;
+  padding-left:0.5rem;
+  max-width: 15rem;
+
 }
 
 /* .imagem-projetos-main{

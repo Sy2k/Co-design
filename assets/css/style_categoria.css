@@ -1,4 +1,4 @@
-/* categoria.html */
+  /* categoria.html */
 
 .secao-title {
   display: flex;
@@ -83,6 +83,7 @@
   text-align: right;
   line-height: 3rem;
   padding-bottom: 1rem;
+  padding-left: 1rem;
   color: #1C05AD;
   text-decoration: none;
 }
