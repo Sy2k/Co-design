@@ -22,8 +22,8 @@
       <li><a class="home" href="index.html">HOME</a></li>
     </ul>
   </header>
-
-  <main class="main">
+  <div class="load"><img src="assets/img/load.gif" alt="carregando"></div>
+  <main class="main hidden">
 
     <h1 class="titulo-projeto">{{titulo}}</h1>
     <div class="projeto">
@@ -43,6 +43,10 @@
             <ul>
               <li class="subtitulo">Habilidade:</li>
               <li class="habilidade">{{this.habilidade}}</li>
+            </ul>
+            <ul>
+              <li class="subtitulo">Resources:</li>
+              <li class="recursos">{{this.resources}}</li>
             </ul>
           </ul>   
       </div>

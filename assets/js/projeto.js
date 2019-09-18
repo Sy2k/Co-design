@@ -21,8 +21,17 @@ document.addEventListener("DOMContentLoaded", function() {
     let habilidade = data["portifolio"][value]["projetos"][value2]
     coDesReplace(".habilidade", habilidade)
 
+    let resources = data["portifolio"][value]["projetos"][value2]
+    coDesReplace(".recursos", resources)
+
     let imagem = data["portifolio"][value]["projetos"][value2]
     coDesReplace(".projeto-item", imagem)
+
+    let load = document.querySelector('.load')
+    load.classList.add('hidden')
+  
+    let test = document.querySelector('.main')
+    test.classList.remove('hidden')
 
   })
 })

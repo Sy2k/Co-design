@@ -8,6 +8,12 @@ document.addEventListener("DOMContentLoaded", function() {
     var slideIndex = 0;
     showSlides();
     
+    let load = document.querySelector('.load')
+    load.classList.add('hidden')
+  
+    let test = document.querySelector('.main')
+    test.classList.remove('hidden') 
+    
     function showSlides() {
       var i;
       var slides = document.getElementsByClassName("slider");

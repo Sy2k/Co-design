@@ -40,6 +40,17 @@
 	padding-top:0.5rem;
 }
 
+
+.hidden {
+	display: none;
+}
+
+.load img {
+  width: 10rem;
+  padding-top: 13rem;
+  padding-left: 34rem;
+}
+
 @media (max-width: 420px) {
 	.header{
 		width: 100%;
@@ -53,6 +64,7 @@
 		padding-top:0.5rem;
 	}
 }
+
 
 /* IPAD */
 @media (width: 768px) {

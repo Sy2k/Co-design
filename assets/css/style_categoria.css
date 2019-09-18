@@ -89,6 +89,7 @@
   text-decoration: none;
 }
 
+
 @media (max-width: 420px){
   .projeto-menu-item-image {
     width:50%;
