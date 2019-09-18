@@ -196,7 +196,7 @@
   }
   .info-pessoal{
     font-family: 'Libre Caslon Text', serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: start;
     color: #0E0357;
     text-decoration: none; 
@@ -207,7 +207,7 @@
   .info-pessoal-item{
     padding-top: 1rem;
     font-family: 'Libre Caslon Text', serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-align: start;
     padding-left:1.3rem;  
     color: #1C05AD;
@@ -215,7 +215,7 @@
   .categorias-item{
     padding-top: 1rem;
     font-family: 'Libre Caslon Text', serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: start;
     color: #1C05AD;
     text-decoration: none;
@@ -227,6 +227,10 @@
   }
   .dot{
     display: none;
+  }
+
+  .categorias{
+    font-size: 2rem;
   }
 }
 /* IPAD */

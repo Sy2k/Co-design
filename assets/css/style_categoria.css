@@ -110,8 +110,12 @@
   }
   .titulo-categoria{
     padding-top:0rem;
+    font-size: 2rem
   }
   .menu-logo-item{
     padding-right:1rem;
+  }
+  .texto{
+    font-size: 0.8rem;
   }
 }
