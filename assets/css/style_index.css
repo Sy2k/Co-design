@@ -23,7 +23,7 @@
   justify-content: center;
   cursor:pointer;
 }
-.dot {
+ .dot {
   cursor: pointer;
   height: 0.7rem;
   width: 0.7rem;
@@ -32,7 +32,7 @@
   border-radius: 100%;
   display: inline-block;
   transition: background-color 1s ease;
-}
+} 
 
 
 .active, .dot:hover {
