@@ -13,19 +13,16 @@
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
   width: 100%;
   text-align: center;
 }
-
-.numbertext {
-  display: flex;
-  flex-direction: column;
-  color: #EDEDED;
-  font-size: 1rem;
-  padding-top: 4.5rem;
+.numbertext{
+  color:#0E0357
 }
-
+.align-dot{
+  justify-content: center;
+  cursor:pointer;
+}
 .dot {
   cursor: pointer;
   height: 0.7rem;
@@ -35,11 +32,8 @@
   border-radius: 100%;
   display: inline-block;
   transition: background-color 1s ease;
-  align-items: center;
 }
-.align-dot{
-  justify-content: center;
-}
+
 
 .active, .dot:hover {
   background-color: #0E0357;
